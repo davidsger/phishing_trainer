@@ -48,6 +48,20 @@ Front- und Backend laufen in Docker. E-Mails und Daten liegen als Dateien/NDJSON
 * **Mehrere Teilnehmer** via URL-Pfad: Ergebnisse getrennt nach `participant_id`.
 * **Dateibasierte Ablage** – keine DB nötig; Backups simpel.
 
+Hier gibt es paar Eindrücke der Oberfläche:
+
+**Dies ist die Testseite**
+
+![Overview](images/Overview.jpeg)
+
+**Sobald eine E-Mail bearbeitet wurde, wird dies links angezeigt**
+
+![Done](images/Email_Done.jpeg)
+
+**Im Trainingsmodus gibt es auch die Möglichkeit die Antwort direkt nach Abgabe der Antwort einzublenden**
+
+![Explain](images/Question_Explain.jpeg)
+
 ---
 
 ## Schnellstart (Docker)
