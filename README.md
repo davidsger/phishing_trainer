@@ -1,4 +1,4 @@
----
+
 
 # MailStudy — Phishing-/Trainings-Postfach
 
@@ -10,7 +10,6 @@ Ein leichtgewichtiges System, um **realistische E-Mails (.eml)** in einer **Post
 
 Front- und Backend laufen in Docker. E-Mails und Daten liegen als Dateien/NDJSON auf dem Host.
 
----
 
 ## Inhaltsverzeichnis
 
@@ -390,3 +389,4 @@ curl -s -H "Authorization: Bearer $TOKEN" http://localhost:8000/api/export/answe
 ---
 
 Viel Erfolg! Wenn du willst, erweitere ich gern das Backend noch um einen **Server-Guard**, der `/api/emails` nur mit `?participant` in Test/Training freigibt — dann ist auch die API ohne PID strikter geschützt.
+
