@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 
 # MailStudy — Phishing-/Trainings-Postfach
 
@@ -781,7 +779,3 @@ curl -s -X POST http://localhost:8000/api/supposed/demo.eml \
 curl -s -H "Authorization: Bearer $TOKEN" http://localhost:8000/api/export/answers | head
 ```
 
----
-
-Viel Erfolg! Wenn du willst, erweitere ich gern das Backend noch um einen **Server-Guard**, der `/api/emails` nur mit `?participant` in Test/Training freigibt — dann ist auch die API ohne PID strikter geschützt.
->>>>>>> 7a710f1 (inital files)
