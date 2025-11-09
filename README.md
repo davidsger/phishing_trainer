@@ -33,7 +33,6 @@ Front- und Backend laufen in Docker. E-Mails und Daten liegen als Dateien/NDJSON
 8. [Inline-Bilder & Anhänge](#inline-bilder--anhänge)
 9. [Sicherheitshinweise](#sicherheitshinweise)
 10. [Troubleshooting](#troubleshooting)
-11. [Entwicklung (ohne Docker)](#entwicklung-ohne-docker)
 
 ---
 
@@ -389,4 +388,5 @@ curl -s -H "Authorization: Bearer $TOKEN" http://localhost:8000/api/export/answe
 ---
 
 Viel Erfolg! Wenn du willst, erweitere ich gern das Backend noch um einen **Server-Guard**, der `/api/emails` nur mit `?participant` in Test/Training freigibt — dann ist auch die API ohne PID strikter geschützt.
+
 
