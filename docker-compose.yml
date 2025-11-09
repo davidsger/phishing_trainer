@@ -1,0 +1,34 @@
+version: "3.9"
+services:
+  backend:
+    image: python:3.11
+    working_dir: /app
+    volumes:
+      - ./backend:/app
+      - ./emails:/emails
+    command: bash -c "pip install fastapi uvicorn python-multipart && uvicorn app:app --host 0.0.0.0 --port 8000"
+    ports:
+      - "8000:8000"
+    environment:
+      - EMAIL_DIR=/emails
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
+      - ADMIN_TOKEN_TTL=43200 
+    networks:
+      - mailstudy_net
+
+  frontend:
+    image: node:20
+    working_dir: /app
+    volumes:
+      - ./frontend:/app
+    environment:
+      - PORT=3000
+    command: bash -c "npm install && npm run build && npx serve -s dist -l 3000"
+    ports:
+      - "3000:3000"
+    networks:
+      - mailstudy_net
+
+networks:
+  mailstudy_net:
+    driver: bridge
