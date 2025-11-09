@@ -1,0 +1,28 @@
+{
+  "default": [
+    {
+      "id": "is_phish",
+      "text": "Ist diese E-Mail verdächtig?",
+      "type": "choice",
+      "options": ["Ja", "Nein"]
+    },
+    {
+      "id": "confidence",
+      "text": "Wie sicher bist du dir?",
+      "type": "choice",
+      "options": ["Sehr sicher", "sicher", "Unsicher", "Sehr Unsicher"]
+    },
+    {
+      "id": "hint",
+      "text": "Welches Merkmal war auffällig?",
+      "type": "text"
+    },
+    {
+      "id": "followup",
+      "text": "Was hättest du als nächstes getan?",
+      "type": "choice",
+      "options": ["IT melden", "ignorieren", "Antworten"],
+      "show_if": { "is_phish": ["Ja"] }
+    }
+  ]
+}

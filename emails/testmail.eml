@@ -1,0 +1,13 @@
+From: support@example.com
+To: user@example.com
+Subject: Willkommen bei MailStudy!
+Date: Sat, 1 Nov 2025 12:00:00 +0100
+Content-Type: text/html; charset="utf-8"
+
+<html>
+  <body>
+    <h2>Willkommen!</h2>
+    <p>Dies ist eine Test-Mail für dein Forschungsprojekt.</p>
+    <p><a href="#">Jetzt mehr erfahren</a></p>
+  </body>
+</html>

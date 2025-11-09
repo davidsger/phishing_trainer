@@ -1,0 +1,38 @@
+{
+  "default": {
+    "is_phish": {
+      "solution": "Ja",
+      "explanation": "Typische Warnsignale vorhanden."
+    }
+  },
+  "test_pretty.eml": {
+    "confidence": {
+      "solution": [
+        "4",
+        "5"
+      ]
+    },
+    "hint": {
+      "solution_regex": "(domain|link|anhang)",
+      "solution_flags": "i",
+      "explanation": "Diese Begriffe sollten genannt werden."
+    }
+  },
+  "testmail.eml": {
+    "is_phish": {
+      "solution": "Nein",
+      "explanation": "Der Link ist legitim und führt nicht zu einer Phishing-Seite."
+    }
+  },
+  "testmailmitanhang.eml": {
+    "is_phish": {
+      "solution": "Ja"
+    },
+    "hint": {
+      "solution": "Link, Anhang"
+    },
+    "followup": {
+      "solution": "IT melden"
+    }
+  }
+}

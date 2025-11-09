@@ -1,0 +1,104 @@
+From: "MailStudy Aktionen" <aktionen@mailstudy.example>
+To: soldier.participant@example.com
+Subject: 🎖️ Kostenloser Coupon zum Veteranentag – nur am 11.11.
+Date: Sat, 1 Nov 2025 14:25:00 +0100
+Message-ID: <veteran-coupon-001@mailstudy.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_Boundary_MIXED_VET_001"
+
+------=_Boundary_MIXED_VET_001
+Content-Type: multipart/alternative; boundary="----=_Boundary_ALT_VET_001"
+
+------=_Boundary_ALT_VET_001
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Danke für Ihren Dienst!
+
+Zum Veteranentag (11. November) sagen wir Danke mit einem kostenlosen Coupon.
+Sie können den Coupon am 11.11. einlösen – online oder vor Ort. Details siehe Anhang.
+
+So funktioniert's:
+1) Öffnen Sie den Link in dieser E-Mail.
+2) Zeigen Sie den Coupon vor (oder geben Sie den Code online ein).
+3) Gültig am 11.11.2025. Einmalig pro Person. Nachweis kann erforderlich sein.
+
+Link: https://example.com/coupon/veteran
+Code: VETERAN-2025-THANKYOU
+
+Freundliche Grüße
+Ihr MailStudy-Team
+
+------=_Boundary_ALT_VET_001
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <title>Kostenloser Coupon zum Veteranentag</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .wrapper { width:100%; background:#f6f7fb; padding:24px 0; }
+      .container { max-width:640px; margin:0 auto; background:#ffffff; border-radius:12px;
+                   border:1px solid #e7e9ef; overflow:hidden; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:#111827; }
+      .header { background:#0f172a; color:#fff; padding:18px 22px; font-size:18px; font-weight:700; display:flex; align-items:center; gap:10px; }
+      .medal { font-size:20px } 
+      .content { padding:22px; line-height:1.6; }
+      .h1 { font-size:22px; margin:0 0 8px 0; }
+      .lead { color:#4b5563; margin:0 0 16px 0; }
+      .callout { background:#f9fafb; border:1px solid #eef2f7; border-radius:10px; padding:14px; margin:16px 0; }
+      .btn { display:inline-block; background:#2563eb; color:#fff !important; text-decoration:none;
+             padding:12px 16px; border-radius:10px; font-weight:600; }
+      .btn:hover { background:#1d4ed8; }
+      .muted { font-size:12px; color:#6b7280; margin-top:16px; }
+      .footer { padding:14px 22px; font-size:12px; color:#6b7280; border-top:1px solid #eef2f7; }
+      .meta { font-size:13px; color:#374151; margin-top:6px; }
+      .badge { display:inline-block; font-size:12px; background:#eef2ff; color:#1e3a8a; border:1px solid #c7d2fe; padding:2px 8px; border-radius:999px; }
+    </style>
+  </head>
+  <body style="margin:0;background:#f6f7fb;">
+    <div class="wrapper">
+      <div class="container">
+        <div class="header"><span class="medal">🎖️</span> Danke für Ihren Dienst</div>
+        <div class="content">
+          <h1 class="h1">Kostenloser Coupon zum Veteranentag</h1>
+          <p class="lead">Am <strong>11. November</strong> sagen wir Danke – mit einem <strong>Gratis-Coupon</strong> für Veteran:innen und aktive Dienstleistende.</p>
+
+          <div class="callout">
+            <p><strong>So funktioniert’s:</strong></p>
+            <ol style="margin:0 0 0 20px; padding:0">
+              <li>Auf „Coupon abrufen“ klicken.</li>
+              <li>Am 11.11. vor Ort zeigen oder online Code eingeben.</li>
+              <li>Gültig einmalig pro Person. Nachweis kann erforderlich sein.</li>
+            </ol>
+          </div>
+
+          <p style="margin:18px 0">
+            <a class="btn" href="https://example.com/coupon/veteran" target="_blank" rel="noopener">Coupon abrufen</a>
+            <span class="badge" style="margin-left:8px">Gültig am 11.11.2025</span>
+          </p>
+
+          <p class="meta"><strong>Code:</strong> <code>VETERAN-2025-THANKYOU</code></p>
+
+          <p class="muted">Hinweis: Details finden Sie auch im Anhang <em>coupon.txt</em>.</p>
+        </div>
+        <div class="footer">
+          MailStudy Aktionen · Demo-Mail für Testzwecke · Sie erhalten diese Nachricht im Rahmen einer Testumgebung.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+------=_Boundary_ALT_VET_001--
+
+------=_Boundary_MIXED_VET_001
+Content-Type: text/plain; name="coupon.txt"; charset="utf-8"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="coupon.txt"
+
+Q09VUE9OOiBWRVRFUkFOLTIwMjUtVEhBTktZT1UKR8O8bHRpZyBhbSAxMS4xMS4yMDI1LiBFaW5tYWxpZyBwcm8gUGVyc29uLiBOYWNod2VpcyBrYW4gZXJmb3JkZXJsaWNoIHNlaW4uCg==
+
+------=_Boundary_MIXED_VET_001--

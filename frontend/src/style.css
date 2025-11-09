@@ -1,0 +1,137 @@
+/* --- Fragen-Panel --- */
+.qpanel {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.qheader {
+  position: sticky;
+  top: 0;
+  background: #ffffffcc;
+  backdrop-filter: saturate(180%) blur(6px);
+  border-bottom: 1px solid #eee;
+  padding: 12px 12px 10px;
+  z-index: 2;
+}
+
+.qtitle {
+  margin: 0 0 6px 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.qprogress-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.qprogress {
+  flex: 1;
+  height: 8px;
+  background: #f2f4f7;
+  border-radius: 999px;
+  overflow: hidden;
+  outline: 1px solid #eef0f3;
+}
+.qprogress > span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #3b82f6, #2563eb);
+  width: 0%;
+  transition: width .25s ease;
+}
+
+.qcontent {
+  padding: 12px;
+  overflow: auto;
+}
+
+/* Frage-Card */
+.qcard {
+  border: 1px solid #edf0f4;
+  background: #fafbfd;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 0 rgba(16,24,40,.03);
+}
+.qcard.depth-1 { border-left: 4px solid #c7d2fe; background: #fbfbff; }
+.qcard.depth-2 { border-left: 4px solid #93c5fd; }
+.qcard + .qcard.depth-0 { margin-top: 16px; }
+
+.qlabel {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.req {
+  font-size: 11px;
+  color: #2563eb;
+  background: #e6f0ff;
+  border: 1px solid #cfe1ff;
+  padding: 1px 6px;
+  border-radius: 999px;
+}
+
+.qinput,
+.qselect,
+.qtextarea {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #dfe4ea;
+  padding: 10px 10px;
+  border-radius: 10px;
+  outline: none;
+  transition: box-shadow .15s ease, border-color .15s ease;
+  font: inherit;
+}
+.qinput:focus,
+.qselect:focus,
+.qtextarea:focus {
+  border-color: #93c5fd;
+  box-shadow: 0 0 0 3px rgba(59,130,246,.15);
+  background: #fff;
+}
+.qhelp {
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 6px;
+}
+
+/* Save-Bar */
+.qsavebar {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  padding: 10px 12px;
+  background: #ffffffd9;
+  border-top: 1px solid #eee;
+  backdrop-filter: saturate(180%) blur(6px);
+  z-index: 2;
+}
+.btn-primary {
+  background: #2563eb;
+  color: #fff;
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.btn-primary:hover { background: #1d4ed8; }
+.btn-ghost {
+  background: transparent;
+  color: #374151;
+  padding: 10px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-ghost:hover { background: #f9fafb; }
